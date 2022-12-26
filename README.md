@@ -20,7 +20,13 @@ Run `make` using the makefile to successfully compile the module. This generates
 Run the following commands to run the module, check the output and later remove the module
 
 ```
-insmod 
+insmod module.ko process_name="[process_name]"
+
+dmesg
+
+rmmod module
+
+```
 
 ## Resources used
 
